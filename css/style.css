@@ -1,0 +1,402 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* header section start */
+.navbar-item>a {
+    color: black;
+    font-weight: 500;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.dropdown-menu>li>a {
+    color: black;
+}
+
+/* header section completed */
+
+
+/* travel enjoy section start */
+
+.travel-ticket>div {
+    background-image: url(/img/hero-bg.svg);
+}
+
+.travel-ticket {
+    position: relative;
+    padding-top: 9rem;
+}
+
+.bg-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.travel-ticket-information {
+    margin-bottom: 150px;
+}
+
+.best {
+    color: rgb(223, 105, 81);
+    font-weight: 700;
+
+}
+
+.travel-big-title {
+    font-weight: 900;
+    font-family: 'Volkhov', serif;
+    position: relative;
+    color: rgb(24, 30, 75);
+    width: 95%;
+    font-size: 2.8865rem;
+}
+
+.travel-big-title::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+
+
+}
+
+.travel-para {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(94, 98, 130);
+}
+
+.play-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.round-btn-content {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(94, 98, 130);
+}
+
+.hero-img {
+    width: 100%;
+
+}
+
+.travel-ticket-right-image {
+    z-index: 1;
+}
+
+.play {
+    color: rgb(94, 98, 130);
+}
+
+/* catagory section start */
+
+.category {
+    margin-bottom: 150px;
+}
+
+.category-heading>h5 {
+    font-weight: 600;
+    color: rgb(94, 98, 130);
+}
+
+.category-heading>h1 {
+    font-weight: 900;
+    color: rgb(24, 30, 75);
+    font-family: 'Volkhov', serif;
+}
+
+.offer-card {
+    position: relative;
+}
+
+
+.offer-card:hover {
+    box-shadow: 0 6.25rem 5rem 0 rgba(0, 0, 0, 0.02), 0 4.05063rem 2.92813rem 0 rgba(0, 0, 0, 0.0152), 0 2.4075rem 1.5925rem 0 rgba(0, 0, 0, 0.0121), 0 1.25rem 0.8125rem 0 rgba(0, 0, 0, 0.01), 0 0.50938rem 0.4075rem 0 rgba(0, 0, 0, 0.0079), 0 0.11563rem 0.19687rem 0 rgba(0, 0, 0, 0.0048);
+}
+
+.offer-card:hover::before {
+    left: -25px;
+    bottom: -25px;
+}y
+
+.offer-card::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #DF6951;
+    border-radius: 30px 20px 10px 0px;
+    z-index: -2;
+    transition: all 0.2s ease-in-out;
+
+}
+
+/* catagory section completed */
+
+/* top selling section start */
+
+.dest-img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+/* top selling section completed */
+
+.top-selling {
+    margin-bottom: 150px;
+}
+
+.top-selling-heading>h5 {
+    font-weight: 600;
+    color: rgb(94, 98, 130);
+}
+
+.dolar {
+    color: rgb(94, 98, 130);
+}
+
+.days-target {
+    color: rgb(94, 98, 130);
+    font-size: 1.1rem;
+}
+
+.place-color>a {
+    color: rgb(94, 98, 130);
+
+}
+
+.hover:hover .place-color>a {
+    color: rgb(241, 165, 1)
+}
+
+.shadow {
+    box-shadow: 0 6.25rem 5rem 0 rgba(0, 0, 0, 0.02), 0 4.05063rem 2.92813rem 0 rgba(0, 0, 0, 0.0152), 0 2.4075rem 1.5925rem 0 rgba(0, 0, 0, 0.0121), 0 1.25rem 0.8125rem 0 rgba(0, 0, 0, 0.01), 0 0.50938rem 0.4075rem 0 rgba(0, 0, 0, 0.0079), 0 0.11563rem 0.19687rem 0 rgba(0, 0, 0, 0.0048) !important;
+}
+
+.top-selling-heading>h1 {
+    font-weight: 900;
+    font-family: 'Volkhov', serif;
+    color: rgb(24, 30, 75);
+}
+
+.card-body>h5{
+    font-weight: 600;
+    color: rgb(20, 24, 62);
+}
+
+.card-body>p{
+    font-weight: 500;
+    color: rgb(94, 98, 130);
+}
+/* top selling section completed */
+
+/* Easy and fast section start */
+
+.easy-fast-heading>h5{
+    font-weight: 600;
+    color: rgb(94, 98, 130);
+}
+
+.easy-section-content>h6{
+    font-weight: 700;
+    color: rgb(94, 98, 130);
+}
+
+.easy-section-content>p{
+    font-weight: 500;
+    color: rgb(94, 98, 130);
+}
+.taxi-icon-bg-color {
+    background-color: rgb(0, 99, 128);
+}
+
+.trip-greece {
+    color: rgb(94, 98, 130);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.easy-fast-heading>h1 {
+    font-weight: 900;
+    font-family: 'Volkhov', serif;
+    color: rgb(24, 30, 75);
+}
+
+.leaf-icon-bg {
+    background-color: rgb(238, 238, 238)
+}
+
+.building-line {
+    color: rgb(94, 98, 130);
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.fast-shadow {
+    box-shadow: 0 6.25rem 5rem 0 rgba(0, 0, 0, 0.02), 0 4.05063rem 2.92813rem 0 rgba(0, 0, 0, 0.0152), 0 2.4075rem 1.5925rem 0 rgba(0, 0, 0, 0.0121), 0 1.25rem 0.8125rem 0 rgba(0, 0, 0, 0.01), 0 0.50938rem 0.4075rem 0 rgba(0, 0, 0, 0.0079), 0 0.11563rem 0.19687rem 0 rgba(0, 0, 0, 0.0048);
+}
+
+.cll {
+    box-shadow: 0 6.25rem 5rem 0 rgba(0, 0, 0, 0.02), 0 4.05063rem 2.92813rem 0 rgba(0, 0, 0, 0.0152), 0 2.4075rem 1.5925rem 0 rgba(0, 0, 0, 0.0121), 0 1.25rem 0.8125rem 0 rgba(0, 0, 0, 0.01), 0 0.50938rem 0.4075rem 0 rgba(0, 0, 0, 0.0079), 0 0.11563rem 0.19687rem 0 rgba(0, 0, 0, 0.0048);
+}
+
+.shadow2 {
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.09) !important;
+}
+
+/* Easy and fast section completed */
+
+/* testimonial section s*/
+
+.left-heading-child>h5{
+    color: rgb(94, 98, 130);
+    font-weight: 600
+}
+
+.left-heading-child>h1{
+    font-weight: 900;
+    font-family: 'Volkhov', serif;
+    color: rgb(24, 30, 75);
+}
+
+/* testimonial section */
+
+
+/* Subscribe section start */
+
+.subscribe {
+    background-color: rgba(223, 215, 249, 0.2);
+    border-radius: 100px 0px 20px 20px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.subscribe-heading {
+    font-weight: 550;
+    color: rgb(94, 98, 130);
+    line-height: 40px;
+    padding-bottom: 50px;
+}
+
+.orange-gradient-btn {
+    background-image: linear-gradient(to bottom, #FF946D, #FF7D68);
+}
+
+.email-hover:hover.active {
+    color: #d96237;
+
+}
+
+.email-hover {
+    border-radius: 10px;
+
+}
+
+/* Subscribe section completed */
+
+/* footer section start */
+
+.footer-heading>p {
+    font-size: 14px;
+    color: rgb(94, 98, 130);
+}
+
+.footer-list>ul>li {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(94, 98, 130);
+    padding: 5px 0px;
+}
+
+.footer-list>ul>li:hover {
+    color: #F1A501
+}
+
+.social-media>div {
+    margin-right: 20px;
+}
+
+.footer-end {
+    color: rgb(94, 98, 130);
+}
+
+/* footer section completed */
+
+
+
+
+/* media query function */
+
+
+@media only screen and (max-width: 768px) {
+
+    .travel-ticket-information {
+        text-align: center;
+    }
+
+    .offer-card::before {
+        content: "";
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        width: 65px;
+        height: 65px;
+        background-color: #DF6951;
+        border-radius: 30px 20px 10px 0px;
+        z-index: -2;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    .brand-image>div>img{
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .brand-image>div {
+        vertical-align: middle;
+
+        margin-top: 30px;
+    }
+
+    .email-hover:hover.active {
+        color: #d96237;
+    
+    }
+    
+    .email-hover {
+        border-radius: 10px;
+    
+    }
+
+}
